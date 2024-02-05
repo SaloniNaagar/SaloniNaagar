@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Protfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a69166294d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer and Content Writer</p>
+                <h1>Hey, I'm <span>Saloni</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------about section ------------  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p> This side Saloni, pursuing B.Sc(H) Computer Science a second year student from Delhi University. I specialize in front-end  technologies, ensuring seamless interactions and responsive design. My expertise lies in HTML, CSS, JavaScript, and various frameworks, allowing me to create visually appealing and functionally robust web applications. <br> <br>
+
+                     My proficiency spans multiple programming languages, writing clean and maintainable code, databases, and development methodologies. Problem-solving and optimizing algorithms are integral parts of my approach to building reliable and high-performance software. <br> <br>
+                    
+                    I bring a versatile skill set that revolves around creating impactful and user-centric digital experiences while effectively communicating the intricacies of technology.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Design interactive websites using HTML,CSS,JS.</li>
+                            <li><span>Content Writer</span><br>Write impactful content on various topics.</li>
+                            <li><span>Various programming languages</span><br>Knowledge of python,C++ and JavaScript.
+                            </li>
+                            <li><span>Graphic Designer</span><br> Making Various posters and design using Canva.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Aam Aadmi Party</span><br> Worked as a content writer.</li>
+                            <li><span>Working on projects</span><br>As frontend Developer.</li>
+                            <li><span>Active Member of Ananta:The Science Society</span><br>As a Graphic Designer.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Pursuing B.Sc(H) Computer Science</span><br> Indraprastha College of Delhi
+                                University(DU)</li>
+                            <li><span>Completed Senior Secoandary School</span><br>School of Excellence,Kalkaji <br>
+                                (2020-2022)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------services---------------  -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designer</h2>
+                    <p>As a web designer, I create visually appealing and user-friendly websites by combining design principles with technical skills. I focus on creating seamless navigation, responsive layouts, and engaging aesthetics to enhance the overall user experience. Additionally, I stay updated on design trends and technologies to deliver modern and effective web solutions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-feather"></i>
+                    <h2>Content Writer</h2>
+                    <p> I am a versatile content writer skilled in crafting engaging and informative articles across various topics. With a keen eye for detail and a passion for effective communication, I strive to create content that captivates readers and delivers valuable insights.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Graphic Designer</h2>
+                    <p> As a graphic designer on Canva, I craft visually compelling designs that seamlessly blend creativity and functionality. My expertise spans diverse projects, from eye-catching social media graphics to polished marketing materials, all meticulously designed to captivate and communicate effectively.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------protfolio-------------  -->
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Social Media Website</h3>
+                        <p> My Instagram website clone is a streamlined, visually appealing platform for sharing and discovering photos with a user-friendly interface.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Music Website</h3>
+                        <p> A Spotify website clone mimics the original's design, offering a familiar interface for seamless music streaming, playlist creation, and personalized recommendations.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <p> Amazon website clone: A mirror image of Amazon's user-friendly interface, facilitating seamless online shopping with a familiar layout, intuitive navigation, and a vast product catalog.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="https://github.com/SaloniNaagar" class="btn">See more</a>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------contact-----------------  -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> naagarsaloni803@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>8527186606</p>
+                    <div class="social-icons">
+                        <a href="linkedin.com/in/saloni-naagar"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/its_sia_2/"> <i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://twitter.com/SaloniNaagar"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your E-mail" required>
+                        <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Saloni. Made <i class="fa-solid fa-heart"></i> by Saloni</p>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
