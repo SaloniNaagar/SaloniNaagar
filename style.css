@@ -282,7 +282,6 @@ nav ul li a:hover::after{
     color: #53d1e7;
     transform: translateY(-5px);
 }
-}
 .copyright{
     width: 100%;
     text-align: center;
