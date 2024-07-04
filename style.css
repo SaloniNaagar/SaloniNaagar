@@ -356,6 +356,8 @@ nav .fas{
         .copyright{
             font-size: 14px;
         }
+       .social-icons a{
+      font-size: 35px; 
 }
 #msg{
     color: #61b752;
